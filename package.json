@@ -1,0 +1,23 @@
+{
+  "name": "nebula-pro-chat",
+  "version": "1.0.0",
+  "description": "Intelligent AI Chat Application - Nebula Pro",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": ["ai", "chat", "openai", "dall-e"],
+  "author": "mbpk1986-sketch",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "openai": "^4.20.1",
+    "axios": "^1.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
